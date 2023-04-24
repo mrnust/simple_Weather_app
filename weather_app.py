@@ -7,7 +7,7 @@ while flag:
     print('************** Welcome to Weather app *****************')
     try:
         city=input("Enter the name of city. ")
-        url=f"https://api.weatherapi.com/v1/current.json?key=fe25fe2259b6473cb8a142058232404&q={city}%27"
+        url=f"https://api.weatherapi.com/v1/current.json?key="Your API_KEY" ={city}%27"
 
         r=requests.get(url);
         wdic=json.loads(r.text) 
